@@ -7,7 +7,7 @@ inputs:
     default: 'Drifice'
 outputs:
   response:
-    description: 'reponse de l'action'
+    description: "reponse de l'action"
 runs:
   using: 'node16'
   main: 'index.js'
