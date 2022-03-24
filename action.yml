@@ -1,0 +1,13 @@
+name: 'Hello World Action'
+description: ' Send a hello word in a runner'
+inputs:
+  name:
+    description: 'La personne dit bonjour'
+    required: true
+    default: 'Drifice'
+outputs:
+  response:
+    description: 'reponse de l'action'
+runs:
+  using: 'node16'
+  main: 'index.js'
